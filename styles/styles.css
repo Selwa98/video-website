@@ -1,0 +1,297 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/* Colored containers */
+
+.features-container,
+#modular,
+#pricing {
+  background-color: #151721;
+}
+
+/* Headings */
+
+.small-heading {
+  color: #848484;
+  letter-spacing: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.big-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 6.25rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.under-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  margin-top: 1.7rem;
+  margin-bottom: 6rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.sub-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+/* Title/Nav-bar */
+
+#title {
+  background-image: url(../img/landing-background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#title .container-fluid {
+  padding: 0 1% 7% 1%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.title-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 51rem;
+}
+
+#title .small-heading {
+  background-color: rgba(102, 101, 101, 0.3);
+  border: 1px solid rgb(132, 132, 132);
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 5px 20px;
+}
+
+.title-btn {
+  background-color: #0033CC;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+/* Features */
+
+.features-container {
+  border-radius: 65px;
+  color: white;
+  padding: 3% 15%;
+}
+
+.features-text {
+  color: #848484;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+
+.card-img {
+  height: 12rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-body-edited {
+  color: white;
+  background-color: #1E222F;
+  text-align: left;
+  border-radius: 0 0 15px 15px;
+  padding: 15px;
+}
+
+.card-only {
+  border-radius: 15px;
+}
+
+.card-edited {
+  background-color: #1E222F;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+
+.card-text {
+  color: #848484;
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+/* Modular */
+
+#modular .container-fluid {
+  padding: 3% 20%;
+}
+
+/* Bonus */
+
+#bonus .container-fluid {
+  padding: 3% 20%;
+}
+
+#bonus .sub-heading {
+  color: #000;
+}
+
+#bonus .card-edited {
+  background-color: #fff;
+}
+
+#bonus .card-body-edited {
+  background-color: #151721;
+}
+
+/* Pricing */
+
+#pricing .container-fluid {
+  padding: 3% 25%;
+}
+
+.pricing-card {
+  background-color: #1E222F;
+  color: #fff;
+  padding: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.pricing-heading {
+  font-size: 1.5rem;
+}
+
+.card-pricing {
+  font-size: 4rem;
+}
+
+.two {
+  font-size: 2.5rem;
+}
+
+.usd-text, .card-description, .card-under-text {
+  color: #848484;
+}
+
+.usd-text {
+  font-size: 0.875rem;
+  font-weight: 900;
+}
+
+.card-description {
+  line-height: 2rem;
+}
+
+.card-under-text {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.btn-full,
+.btn-basic {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.btn-full {
+  background-color: #0033CC;
+}
+
+.btn-basic {
+  background-color: #2C303A;
+}
+
+/* Footer */
+
+.copyright-text {
+  font-weight: 700;
+}
+
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #0033CC;
+  /* Set a background color */
+  color: #FFF;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 5px 15px;
+  /* Some padding */
+  border-radius: 25px;
+  /* Rounded corners */
+  font-size: 25px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #2C303A;
+  /* Add a dark-grey background on hover */
+}
+
+#myBtn:active {
+  background-color: #4a4e58;
+  /* Add a dark-grey background on hover */
+}
+
+/* Responsive */
+
+@media (max-width: 1111px) {
+  #pricing .container-fluid {
+    padding: 3% 5%;
+  }
+}
