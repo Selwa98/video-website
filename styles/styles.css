@@ -291,6 +291,13 @@ p {
 /* Responsive */
 
 @media (max-width: 1111px) {
+
+  #pricing .container-fluid {
+    padding: 3% 5%;
+  }
+}
+
+@media (max-width:500px) {
   #modular .container-fluid {
     padding: 3% 5%;
   }
@@ -299,11 +306,4 @@ p {
     padding: 3% 5%;
   }
 
-  #pricing .container-fluid {
-    padding: 3% 5%;
-  }
-
-  .container-fluid {
-    padding: 3% 5%;
-  }
 }
